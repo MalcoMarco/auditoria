@@ -216,4 +216,4 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
-Plugin::load('Dompdf');
+Plugin::load('Dompdf', ['bootstrap' => true]);
